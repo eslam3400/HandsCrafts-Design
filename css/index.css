@@ -1,0 +1,232 @@
+/* ------------------------------------------------------------NavBar ------------------------------------------------------------------- */
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+/* ------------------------------------------------------ Service ------------------------------------------------------------------------- */
+.service {
+  padding: 5% 0%;
+}
+.service p {
+  margin-top: 1.5%;
+}
+hr.style-seven {
+  overflow: visible; /* For IE */
+  margin: auto;
+  width: 30%;
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+.service2 {
+  padding-bottom: 5%;
+}
+.servicecard1,
+.servicecard2,
+.servicecard3 {
+  padding: 2% 2%;
+}
+.service2 i {
+  margin-bottom: 10%;
+}
+/* -------------------------------------------------------------- Fixed BackGround ------------------------------------------------------ */
+.fixedbackground1 {
+  border: soild red 5px;
+  background-image: url("https://images.unsplash.com/photo-1468322638156-074863f9362e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 600px;
+}
+/* --------------------------------------------------------------- gallery ------------------------------------------------------------ */
+.gallery {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.gallery h3 {
+  font-size: 3rem;
+  padding-left: 5%;
+}
+.gallery .style-seven {
+  float: left;
+  margin-left: 3%;
+  width: 35%;
+  height: 15px;
+  margin-top: 1%;
+}
+.gallery p {
+  margin: 10% 0%;
+  padding: 0% 5%;
+}
+.gallery .a {
+  padding: 0% 32%;
+}
+.gallery .preview1,
+.preview2,
+.preview3,
+.preview4 {
+  float: left;
+  width: 100%;
+  height: 200px;
+  border: white solid;
+}
+.preview1 {
+  background-image: url("https://images.unsplash.com/photo-1547275870-de097f0cea8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
+  background-size: cover;
+  background-position: center;
+}
+.preview2 {
+  background-image: url("https://images.unsplash.com/photo-1550583074-288b9c016df5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80");
+  background-size: cover;
+  background-position: center;
+}
+.preview3 {
+  background-image: url("https://images.unsplash.com/photo-1548687085-41af45027f9b?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-position: center;
+}
+.preview4 {
+  background-image: url("https://images.unsplash.com/photo-1561394818-699dc5ac3e9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80");
+  background-size: cover;
+  background-position: center;
+}
+.btn1 {
+  visibility: hidden;
+}
+/* -------------------------------------------------------------- Fixed BackGround ------------------------------------------------------ */
+.fixedbackground2 {
+  border: soild red 5px;
+  background-image: url("https://images.unsplash.com/photo-1462219184706-54ee45591096?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: topx;
+  height: 600px;
+}
+/* ---------------------------------------------------------------- Team ---------------------------------------------------------- */
+.team-header {
+  margin: 4% 0%;
+}
+.team-header h3 {
+  font-size: 3.5rem;
+}
+.team-header .style-seven {
+  width: 35%;
+  height: 15px;
+}
+.team-cards {
+  margin-bottom: 4%;
+}
+.card1,
+.card2,
+.card3 {
+  margin: 5% 0%;
+}
+/* -------------------------------------------------------------- Fixed BackGround ------------------------------------------------------ */
+.fixedbackground3 {
+  border: soild red 5px;
+  background-image: url("https://images.unsplash.com/photo-1518650806754-d6fc7bb5b5c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: topx;
+  height: 600px;
+}
+/* ----------------------------------------------------------------- Connect --------------------------------------------------------- */
+.connect {
+  padding: 15% 0%;
+}
+.connect h2 {
+  font-size: 3rem;
+}
+.connect-icons {
+  margin: 4% 0%;
+}
+.connect .icon {
+  margin: 0% 4%;
+}
+.connect-icons .icons-container1,
+.icons-container2,
+.icons-container3 {
+  display: inline;
+  padding: 8% 0%;
+}
+.fa-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* --------------------------------------------------------------- footer ---------------------------------------------------------- */
+.footer {
+  background-color: #1c2331;
+  padding-top: 2%;
+  color: #ffffff;
+}
+.sign {
+  background-color: #161c27;
+  padding: 1%;
+}
+/* ------------------------------------------------------------ responsive layout ---------------------------------------------------- */
+@media (max-width: 575.98px) {
+  .service {
+    margin-top: 10%;
+  }
+  .service .style-seven {
+    width: 75%;
+    height: 15px;
+  }
+  .service00 {
+    margin-bottom: 5%;
+  }
+  .servicecard1,
+  .servicecard2,
+  .servicecard3 {
+    margin: 13% 0%;
+    padding: 0% 10%;
+  }
+  .gallery {
+    margin-bottom: 6%;
+  }
+  .gallery .style-seven {
+    float: left;
+    margin-left: 3%;
+    width: 50%;
+    height: 15px;
+    margin-top: 1%;
+  }
+  .gallery .btn0 {
+    visibility: hidden;
+  }
+  .gallery .preview-box {
+    margin-top: -14%;
+  }
+  .gallery .btn1 {
+    margin-top: 6%;
+    visibility: visible;
+  }
+  .team-header .style-seven {
+    width: 90%;
+    height: 15px;
+  }
+  .connect-icons .icons-container1,
+  .icons-container2,
+  .icons-container3 {
+    display: block;
+    padding: 8% 0%;
+  }
+}
